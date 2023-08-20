@@ -294,23 +294,3 @@ h1{
         text-align: left;
     }
 }
-
-
-/* FOOTER */
-
-footer {
-    display: inline-flex;
-    width: 100%;
-    height: 200px;
-    background-color: #4B0907;
-}
-
-.navegacion_footer{
-    display: inline-flex;
-    flex-direction: column;
-}
-
-footer a {
-    text-decoration: none;
-    color: #bb9457;
-}
