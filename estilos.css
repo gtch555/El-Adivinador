@@ -86,6 +86,39 @@ div.botones{
     border-bottom: 1px solid #bb9457
 }
 
+@media (max-width: 648px) {
+    .botones__boton-inicio {
+        display: none;
+    }
+    .botones__boton-productos {
+
+    }
+}
+
+@media (max-width: 582px) {
+    .botones__boton-acerca-de {
+        display: none;
+    }
+}
+
+@media (max-width: 392px) {
+    .botones__boton-productos {
+        display: none;
+    }
+}
+
+@media (max-width: 276px) {
+    .botones__boton-grande {
+        display: none;
+    }
+    
+    .logo_color {
+        align-content: 100vw;
+    }
+}
+
+
+
 /* TITULO */
 
 .main{
@@ -110,6 +143,11 @@ h1{
     z-index: 10;
 }
 
+@media (max-width: 286px) {
+    .titulo_main {
+        font-size:35px;
+    }  
+} 
 /* BOTONES MAIN */
 
 .botones-main{
@@ -165,11 +203,17 @@ h1{
     color: #6f1d1b;
 }
 
+@media (max-width: 566px) {
+    .botones-main {
+        flex-direction: column;
+    }
+}
+
 /* WHITEBOX */
 .whitebox {
     color: #bb9457;
     width: 100%;
-    height: 3000px;
+    height: auto;
     margin-top: 100px;
     background-color: #531614;
 }
@@ -293,4 +337,70 @@ h1{
         padding: 0%;
         text-align: left;
     }
+}
+
+/* BOTON FINAL */
+.seccion_final{
+    background-color: #6f1d1b;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    outline: 1px solid #bb9457;
+    border-radius: 6px;
+    margin: 15vw;
+    margin-top: 100px;
+}
+
+.seccion_final h4 {
+    margin: 30px;
+}
+
+.boton_final{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+    width: 200px;
+    background-color: #6f1d1b;
+    margin-right: 30px;
+    border-radius: 4px;
+    text-align: center;
+    transition: all 0.3s;
+    outline: 1px solid #bb9457;
+    color: #bb9457;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    min-width: 200px;
+}
+.boton_final:hover{
+    background-color: #bb9457;
+    outline: 1px solid #bb9457;
+    color: #6f1d1b;
+}
+
+@media (max-width: 768px) {
+    .seccion_final {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .boton_final {
+        margin-bottom: 20px;
+    }
+}
+
+/* FOOTER */
+.site-footer {
+    background-color: #6f1d1b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.copyrigh t{
+    font-size: 12px;
+    text-decoration: none;
 }
