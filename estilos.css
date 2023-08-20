@@ -197,6 +197,7 @@ h1{
     margin-right: 8%;
     display: flex;
     flex-direction: column;
+    text-align: justify;
 }
 
 .texto_001 h3 {
@@ -214,6 +215,8 @@ h1{
         flex-direction: column;
         align-items: flex-start; 
         padding: 5%;
+        padding-top: 40px;
+        margin-bottom: 0px;
     }
 
     .primera_info img {
@@ -252,7 +255,7 @@ h1{
     margin-left: 8%;
     display: flex;
     flex-direction: column;
-    text-align: end;
+    text-align:end;
 }
 
 .texto_002 h3 {
@@ -268,6 +271,28 @@ h1{
 .texto_002 .p2 {
     margin-top: 8px;
     font-size:17px;
+}
+
+@media (max-width: 768px) {
+    .segunda_info {
+        flex-direction: column;
+        align-items: flex-start; 
+        padding: 5%;
+    }
+
+    .segunda_info img {
+        order: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .texto_002 {
+        margin-left: 0; /* Elimina el margen en dispositivos más pequeños */
+        padding: 0%;
+        text-align: left;
+    }
 }
 
 
