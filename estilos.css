@@ -90,9 +90,6 @@ div.botones{
     .botones__boton-inicio {
         display: none;
     }
-    .botones__boton-productos {
-
-    }
 }
 
 @media (max-width: 582px) {
@@ -216,6 +213,7 @@ h1{
     height: auto;
     margin-top: 100px;
     background-color: #531614;
+    outline: 1px solid #bb9457;
 }
 
 /* Primera info */
@@ -231,7 +229,7 @@ h1{
 
 .primera_info img {
     margin-left: 8%;
-    width: 30%;
+    width: 35%;
     border-radius: 4%;
 }
 
@@ -273,7 +271,7 @@ h1{
     .texto_001 {
         margin-left: 0; /* Elimina el margen en dispositivos más pequeños */
         padding: 0%;
-        text-align: left;
+ 
     }
 }
 
@@ -302,6 +300,10 @@ h1{
     text-align:end;
 }
 
+.texto_002 p {
+    text-align:right;
+}
+
 .texto_002 h3 {
     font-family: 'Rockwell', sans-serif;
     font-size:45px;
@@ -317,27 +319,7 @@ h1{
     font-size:17px;
 }
 
-@media (max-width: 768px) {
-    .segunda_info {
-        flex-direction: column;
-        align-items: flex-start; 
-        padding: 5%;
-    }
 
-    .segunda_info img {
-        order: 0;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        margin-bottom: 30px;
-    }
-
-    .texto_002 {
-        margin-left: 0; /* Elimina el margen en dispositivos más pequeños */
-        padding: 0%;
-        text-align: left;
-    }
-}
 
 /* BOTON FINAL */
 .seccion_final{
@@ -354,6 +336,7 @@ h1{
 
 .seccion_final h4 {
     margin: 30px;
+    text-align: justify;
 }
 
 .boton_final{
@@ -384,6 +367,7 @@ h1{
     .seccion_final {
         flex-direction: column;
         margin: 0;
+        text-align: justify;
     }
 
     .boton_final {
@@ -391,16 +375,123 @@ h1{
     }
 }
 
-/* FOOTER */
-.site-footer {
-    background-color: #6f1d1b;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    
+
+/* Prueba pantalla chica responsive */
+
+@media (max-width: 1366px) {
+    header{
+        height: 0px;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    nav{
+        height: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .botones{
+        height: 60px;
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    #logo{
+        width: 40px;
+    }
+
+    .botones a{
+        font-size: 18px;
+    }
+
+    .botones__boton-grande{
+        padding: 9.5px;
+        height: 40px;
+        width: 108px;
+    }
+
+    .main{
+        margin-top: 100px;
+        height: 200px;
+        margin-bottom: 0;
+
+    }
+    .primera_info img {
+        width: 45%;
+    }
+
+    .segunda_info img {
+        width: 45%;
+    }
 }
 
-.copyrigh t{
-    font-size: 12px;
-    text-decoration: none;
+@media (max-width: 1106px) {
+    .primera_info {
+        flex-direction: column;
+        align-items: flex-start; 
+        padding: 5%;
+        padding-top: 40px;
+        margin-bottom: 0px;
+    }
+
+    .primera_info img {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .texto_001 {
+        margin-left: 0; /* Elimina el margen en dispositivos más pequeños */
+        padding: 0%;
+ 
+    }
+
+    .segunda_info {
+        flex-direction: column;
+        align-items: flex-start; 
+        padding: 5%;
+        text-align: justify;
+    }
+
+    .segunda_info img {
+        order: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .texto_002 {
+        margin-left: 0;
+        padding: 0%;
+        text-align: justify;
+    
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .segunda_info {
+        flex-direction: column;
+        align-items: flex-start; 
+        padding: 5%;
+        text-align: justify;
+    }
+
+    .segunda_info img {
+        order: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .texto_002 {
+        margin-left: 0;
+        padding: 0%;
+        text-align: justify;
+    }
 }
