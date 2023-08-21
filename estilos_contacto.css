@@ -204,7 +204,6 @@ h1{
 
 /* Celular */
 
-
 .whitebox {
     outline: 1px solid #bb9457;
     background-color: #621918;
@@ -259,6 +258,7 @@ h1{
     outline: 1px solid #bb9457;
     background-color: #6f1d1b;
     margin-bottom: 50px;
+    order: 1;
   } 
 
   .container_1 {
@@ -283,6 +283,12 @@ h1{
         padding-top: 0;
     }
     .container{
+        margin: 0;
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .container_1{
         margin: 0;
         margin-left: 0%;
         width: 100%;
