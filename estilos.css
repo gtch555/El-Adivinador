@@ -152,6 +152,7 @@ h1{
     flex-direction: row;
     justify-content: center;
     justify-content: space-around;
+    margin-left: 23px;
 }
 
 
@@ -200,9 +201,58 @@ h1{
     color: #6f1d1b;
 }
 
-@media (max-width: 566px) {
+@media (max-width: 582px) {
+    .botones-main-1 {
+        font-size: 20px;
+        height: 44.1px;
+        width: 225px;
+        margin-right: 15px;
+    }
+
+    .botones-main-2 {
+        font-size: 20px;
+        height: 44.1px;
+        width: 225px;
+    }
+}
+
+@media (max-width: 518px) {
+    .botones-main-1 {
+        font-size: 18px;
+        height: 39.69px;
+        width: 202.5px;
+    }
+
+    .botones-main-2 {
+        font-size: 18px;
+        height: 39.69px;
+        width: 202.5px;
+    }
+}
+
+@media (max-width: 472px) {
+    .botones-main-1 {
+        font-size: 17.5px;
+        height: 39.69px;
+        width: 182.25px;
+    }
+
+    .botones-main-2 {
+        font-size: 17.5px;
+        height: 39.69px;
+        width: 182.25px;
+    }
+}
+
+@media (max-width: 432px) {
     .botones-main {
+        margin-top: 10px;
         flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .botones-main-2 {
+        margin-top: 10px;
     }
 }
 
@@ -239,41 +289,21 @@ h1{
     margin-right: 8%;
     display: flex;
     flex-direction: column;
-    text-align: justify;
 }
 
 .texto_001 h3 {
     font-family: 'Rockwell', sans-serif;
     font-size:45px;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .texto_001 p {
+    text-align: justify;
     font-size:26px;
 }
 
-@media (max-width: 768px) {
-    .primera_info {
-        flex-direction: column;
-        align-items: flex-start; 
-        padding: 5%;
-        padding-top: 40px;
-        margin-bottom: 0px;
-    }
 
-    .primera_info img {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        margin-bottom: 30px;
-    }
-
-    .texto_001 {
-        margin-left: 0; /* Elimina el margen en dispositivos más pequeños */
-        padding: 0%;
- 
-    }
-}
 
 /* Segunda info */
 
@@ -297,7 +327,6 @@ h1{
     margin-left: 8%;
     display: flex;
     flex-direction: column;
-    text-align:end;
 }
 
 
@@ -305,10 +334,12 @@ h1{
     font-family: 'Rockwell', sans-serif;
     font-size:45px;
     margin-bottom: 20px;
+    text-align:end;
 }
 
 .texto_002 p {
     font-size:26px;
+    text-align: justify;
 }
 
 .texto_002 .p2 {
@@ -333,7 +364,7 @@ h1{
 
 .seccion_final h4 {
     margin: 30px;
-    text-align: justify;
+    text-align: left;
 }
 
 .boton_final{
@@ -409,7 +440,7 @@ h1{
     }
 
     .main{
-        margin-top: 100px;
+        margin-top: 140px;
         height: 200px;
         margin-bottom: 0;
 
@@ -421,6 +452,11 @@ h1{
     .segunda_info img {
         width: 45%;
         
+    }
+
+    .seccion_final {
+        margin-left: 35px;
+        margin-right: 35px;
     }
 }
 
@@ -441,7 +477,7 @@ h1{
     }
 
     .texto_001 {
-        margin-left: 0; /* Elimina el margen en dispositivos más pequeños */
+        margin-left: 0;
         padding: 0%;
  
     }
@@ -464,8 +500,53 @@ h1{
     .texto_002 {
         margin-left: 0;
         padding: 0%;
-        text-align: justify;
+        text-align: left;
     
+    }
+
+    .texto_002 h3 {
+        text-align: left;
+    }
+
+    .texto_002 p, .texto_001 p {
+        margin-left: 0;
+        padding: 0%;
+        text-align: left;
+    
+    }
+
+    .seccion_final {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+}
+
+/* Celular */
+
+
+
+@media (max-width: 768px) {
+    .primera_info {
+        flex-direction: column;
+        align-items: flex-start; 
+        padding: 5%;
+        padding-top: 40px;
+        margin-bottom: 0px;
+    }
+
+    .primera_info img {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .texto_001 {
+        margin-left: 0; /* Elimina el margen en dispositivos más pequeños */
+        padding: 0%;
+ 
     }
 }
 
@@ -493,5 +574,35 @@ h1{
         padding: 0%;
         text-align: justify;
     }
+
+    .texto_002 h3 {
+        text-align: left;
+        font-size: 40px;
+    }
+
+    .seccion_final {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
+
+@media (max-width: 462px) {
+
+    .texto_001 h3 {
+        font-size: 35px;
+    }
+    .texto_001 p {
+        font-size: 23px;
+    }
+
+    .texto_002 h3 {
+        font-size: 35px;
+    }
+    .texto_002 p {
+        font-size: 23px;
+    }
+}
+
+
+/* Pantalla media-grande */
 
