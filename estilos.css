@@ -300,9 +300,6 @@ h1{
     text-align:end;
 }
 
-.texto_002 p {
-    text-align:right;
-}
 
 .texto_002 h3 {
     font-family: 'Rockwell', sans-serif;
@@ -423,6 +420,7 @@ h1{
 
     .segunda_info img {
         width: 45%;
+        
     }
 }
 
@@ -436,7 +434,7 @@ h1{
     }
 
     .primera_info img {
-        width: 100%;
+        width: 70%;
         margin: 0;
         padding: 0;
         margin-bottom: 30px;
@@ -457,7 +455,7 @@ h1{
 
     .segunda_info img {
         order: 0;
-        width: 100%;
+        width: 70%;
         margin: 0;
         padding: 0;
         margin-bottom: 30px;
@@ -478,8 +476,9 @@ h1{
         flex-direction: column;
         align-items: flex-start; 
         padding: 5%;
-        text-align: justify;
+        text-align: left;
     }
+
 
     .segunda_info img {
         order: 0;
@@ -495,3 +494,4 @@ h1{
         text-align: justify;
     }
 }
+
