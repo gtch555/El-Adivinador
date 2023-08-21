@@ -299,7 +299,7 @@ h1{
 }
 
 .texto_001 p {
-    text-align: justify;
+    text-align: left;
     font-size:26px;
 }
 
@@ -317,7 +317,7 @@ h1{
 .segunda_info img {
     order: 1;
     margin-right: 8%;
-    width: 30%;
+    width: 35%;
     border-radius: 4%;
 }
 
@@ -339,7 +339,7 @@ h1{
 
 .texto_002 p {
     font-size:26px;
-    text-align: justify;
+    text-align: right;
 }
 
 .texto_002 .p2 {
@@ -471,7 +471,7 @@ h1{
     }
 
     .primera_info img {
-        width: 70%;
+        width: 50%;
         margin: 0;
         padding: 0;
         margin-bottom: 30px;
@@ -492,7 +492,7 @@ h1{
 
     .segunda_info img {
         order: 0;
-        width: 70%;
+        width: 50%;
         margin: 0;
         padding: 0;
         margin-bottom: 30px;
@@ -605,6 +605,6 @@ h1{
     }
 }
 
-
-/* Pantalla media-grande */
-
+pre {
+    font-size: larger;
+}
