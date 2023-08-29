@@ -20,7 +20,7 @@ header{
 .botones{
     /*margin: -10px;*/
     height: 100px;
-    background-color: #6f1d1b;
+    background-color: rgb(111, 29, 27);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -70,7 +70,7 @@ header{
 
 .botones__boton-grande:hover{
     background-color: #bb9457;
-    outline: 1px solid #bb9457;
+    outline: 1px solid rgb(187, 148, 87);
     color: #6f1d1b;
 }
 
@@ -610,6 +610,11 @@ h1{
         font-size: 23px;
     }
 
+    .primera_info img {
+        transition: all 0.5s;
+        margin-top: -80px;
+        z-index: 1;
+    }
     
 }
 
