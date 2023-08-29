@@ -352,20 +352,21 @@ h1{
 /* BOTON FINAL */
 .seccion_final{
     background-color: #6f1d1b;
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
     outline: 1px solid #bb9457;
-    border-radius: 6px;
-    margin: 15vw;
+    height: 80px;
+    width: 70%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 5px;
     margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .seccion_final h4 {
-    margin: 30px;
     text-align: left;
+    margin-right: 30px;
 }
 
 .boton_final{
@@ -382,8 +383,6 @@ h1{
     transition: all 0.3s;
     outline: 1px solid #bb9457;
     color: #bb9457;
-    margin-top: 1%;
-    margin-bottom: 1%;
     min-width: 200px;
 }
 .boton_final:hover{
@@ -763,4 +762,10 @@ body {
     outline: 1px solid #bb9457;
     margin: 0 auto;
     max-width: 2000px;
+}
+
+footer {
+    height: 300px;
+    margin-top: 45px;
+    background-color:#bb9457;
 }
