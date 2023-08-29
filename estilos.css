@@ -20,7 +20,7 @@ header{
 .botones{
     /*margin: -10px;*/
     height: 100px;
-    background-color: rgb(111, 29, 27);
+    background-color: #6f1d1b;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -70,7 +70,7 @@ header{
 
 .botones__boton-grande:hover{
     background-color: #bb9457;
-    outline: 1px solid rgb(187, 148, 87);
+    outline: 1px solid #bb9457;
     color: #6f1d1b;
 }
 
