@@ -339,3 +339,9 @@ h1{
         
     }
 }
+
+body {
+    outline: 1px solid #bb9457;
+    margin: 0 auto;
+    max-width: 2000px;
+}

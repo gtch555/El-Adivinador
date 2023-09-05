@@ -86,17 +86,44 @@ div.botones{
     border-bottom: 1px solid #bb9457
 }
 
-@media (max-width: 648px) {
-    .botones__boton-inicio {
-        display: none;
+
+
+@media (max-width: 582px) {
+    #logo {
+        margin-left: 10px;
     }
 }
 
-@media (max-width: 582px) {
-    .botones__boton-acerca-de {
-        display: none;
+@media (max-width: 465px) {
+    .botones__boton-inicio {
+        display: none
     }
 }
+
+@media (max-width: 544px) {
+    .botones__boton-grande{
+        margin-right: 15px;
+    }
+
+    .botones div a {
+        margin-right: 1px;
+        font-size: 17px;
+    }
+
+    .botones__boton-inicio{
+        margin-right: 20px;
+    }
+    .botones__boton-acerca-de{
+        margin-right: 10px;
+    }
+    .botones__boton-productos{
+        margin-right: 20px;
+    }
+}
+@media (max-width: 456px) {
+
+}
+
 
 @media (max-width: 392px) {
     .botones__boton-productos {
@@ -104,13 +131,17 @@ div.botones{
     }
 }
 
+
+@media (max-width: 344px) {
+    .botones__boton-acerca-de {
+        display: none;
+    }
+}
+
+
 @media (max-width: 276px) {
     .botones__boton-grande {
         display: none;
-    }
-    
-    .logo_color {
-        align-content: 100vw;
     }
 }
 
@@ -119,7 +150,7 @@ div.botones{
 /* TITULO */
 
 .main{
-    margin-top: 50px;
+    margin-top: 0;
     display: flex;
     flex-direction: column;
 
@@ -170,7 +201,7 @@ h1{
     outline: 1px solid #bb9457;
     color: #bb9457;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     
 }
 .botones-main-1:hover{
@@ -193,7 +224,7 @@ h1{
     outline: 1px solid #bb9457;
     color: #bb9457;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 .botones-main-2:hover{
     background-color: #bb9457;
@@ -355,18 +386,22 @@ h1{
     display: flex;
     flex-direction: row;
     outline: 1px solid #bb9457;
-    height: 80px;
-    width: 70%;
+    height: auto;
+    width: 100%;
     align-items: center;
     align-content: center;
     justify-content: center;
     border-radius: 5px;
-    margin-top: 50px;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
 
 .seccion_final h4 {
     text-align: left;
     margin-right: 30px;
+    font-size: 20px;
 }
 
 .boton_final{
@@ -390,19 +425,6 @@ h1{
     outline: 1px solid #bb9457;
     color: #6f1d1b;
 }
-
-@media (max-width: 768px) {
-    .seccion_final {
-        flex-direction: column;
-        margin: 0;
-        text-align: justify;
-    }
-
-    .boton_final {
-        margin-bottom: 20px;
-    }
-}
-
 
 /* Prueba pantalla chica responsive */
 
@@ -453,12 +475,9 @@ h1{
         width: 45%;
         
     }
-
-    .seccion_final {
-        margin-left: 38px;
-        margin-right: 38px;
-    }
 }
+
+
 
 @media (max-width: 1106px) {
     .primera_info {
@@ -515,18 +534,12 @@ h1{
     
     }
 
-    .seccion_final {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
 
 
     
 }
 
 /* Celular */
-
-
 
 @media (max-width: 768px) {
     .primera_info {
@@ -583,13 +596,6 @@ h1{
         font-size: 40px;
     }
 
-    .seccion_final {
-        margin-top: 20px;
-        margin-left: 0;
-        margin-right: 0;
-        border-radius: 0;
-    }
-
 
 }
 
@@ -609,7 +615,7 @@ h1{
         font-size: 23px;
     }
 
-    .primera_info img {
+    #primera_info_img {
         transition: all 0.5s;
         margin-top: -80px;
         z-index: 1;
