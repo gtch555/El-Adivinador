@@ -120,10 +120,6 @@ div.botones{
         margin-right: 20px;
     }
 }
-@media (max-width: 456px) {
-
-}
-
 
 @media (max-width: 392px) {
     .botones__boton-productos {
@@ -395,8 +391,10 @@ h1{
     margin-top: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
-    
-
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .seccion_final h4 {
@@ -405,6 +403,7 @@ h1{
     margin-right: 30px;
     font-size: 20px;
 }
+
 
 /* Acomodar texto siempre un renglon */
 
@@ -454,7 +453,22 @@ h1{
     color: #6f1d1b;
 }
 
-/* Prueba pantalla chica responsive */
+@media (max-width: 1500px) {
+    .seccion_final{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 1129px) {
+    .seccion_final{
+        width: 100%;
+        margin-left: 0;
+        border-radius: 0;
+    }
+}
+
+/* pantalla chica responsive, imagenes columna */
 
 @media (max-width: 1366px) {
     header{
@@ -503,8 +517,46 @@ h1{
         width: 45%;
         
     }
+
+    .seccion_final {
+        flex-direction: column;
+
+    }
+
+    .seccion_final h4 {
+        font-size: 22px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .boton_final {
+        margin-bottom: 10px;
+    }
+
 }
 
+@media (max-width: 1366px) {
+    .seccion_final h4 {
+        font-size: 22px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 1174px) {
+    .seccion_final h4 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 964px) {
+    .seccion_final h4 {
+        font-size: 19px;
+    }
+}
+@media (max-width: 919px) {
+    .seccion_final h4 {
+        font-size: 21px;
+    }
+}
 
 
 @media (max-width: 1106px) {
@@ -563,7 +615,10 @@ h1{
     }
 
 
-
+    .seccion_final {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     
 }
 
@@ -591,6 +646,14 @@ h1{
  
     }
 
+    .seccion_reviews {
+        margin-top: 0;
+    }
+
+    .seccion_final {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 
 }
 
@@ -622,6 +685,12 @@ h1{
     .texto_002 h3 {
         text-align: left;
         font-size: 40px;
+    }
+
+    .seccion_final {
+        margin-top: 0;
+        margin-bottom: -29px;
+        border-radius: 0;
     }
 
 
@@ -731,7 +800,7 @@ pre {
 
     .seccion_reviews {
         margin-top: 30px;
-        margin-bottom: -18px;
+        margin-bottom: 0;
         padding-top: 30px;
         padding-bottom: 30px;
         padding-left: 5%;
