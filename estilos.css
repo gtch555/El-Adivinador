@@ -88,6 +88,9 @@ div.botones{
 
 
 
+
+
+
 @media (max-width: 582px) {
     #logo {
         margin-left: 10px;
@@ -395,6 +398,34 @@ h1{
     margin-left: 10%;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+@media (min-width: 1991px) {
+    .seccion_final {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 1990px) {
+    .seccion_final {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 1709px) {
+    .seccion_final {
+        width: 75%;
+        margin-left: 13%;
+    }
+}
+
+@media (max-width: 1593px) {
+    .seccion_final {
+        width: 80%;
+        margin-left: 10%;
+    }
 }
 
 .seccion_final h4 {
@@ -861,6 +892,19 @@ pre {
     }
 }
 
+
+/* Imagen 1 asomando */
+@media (max-width: 582px) {
+    .primera_info img {
+        z-index: 1;
+        transition: all 0.4s;
+        margin-top: -80px;
+    }
+
+    #tercera_imagen {
+        margin-top: 0;
+    }
+}
 body {
     outline: 1px solid #bb9457;
     margin: 0 auto;
