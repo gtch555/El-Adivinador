@@ -395,13 +395,41 @@ h1{
     margin-top: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
+    
 
 }
 
 .seccion_final h4 {
     text-align: left;
+    margin-left: 30px;
     margin-right: 30px;
     font-size: 20px;
+}
+
+/* Acomodar texto siempre un renglon */
+
+@media (max-width: 1218px) {
+    .seccion_final h4 {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 1155px) {
+    .seccion_final h4 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1106px) {
+    .seccion_final h4 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1059px) {
+    .seccion_final h4 {
+        font-size: 16px;
+    }
 }
 
 .boton_final{
