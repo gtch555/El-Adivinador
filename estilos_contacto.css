@@ -62,7 +62,7 @@ header{
     margin-right: 30px;
     border-radius: 4px;
     text-align: center;
-    transition: all 0.3s;
+    transition: color 0.3s;
     outline: 1px solid #bb9457;
     color: #bb9457;
     padding: 11px;
@@ -86,33 +86,65 @@ div.botones{
     border-bottom: 1px solid #bb9457
 }
 
-@media (max-width: 648px) {
+
+
+
+
+
+@media (max-width: 582px) {
+    #logo {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 465px) {
+    .botones__boton-inicio {
+        display: none
+    }
+}
+
+@media (max-width: 544px) {
+    .botones__boton-grande{
+        margin-right: 15px;
+    }
+
+    .botones div a {
+        margin-right: 1px;
+        font-size: 17px;
+    }
+
+    .botones__boton-inicio{
+        margin-right: 20px;
+    }
+    .botones__boton-acerca-de{
+        margin-right: 10px;
+    }
+    .botones__boton-productos{
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 392px) {
     .botones__boton-productos {
         display: none;
     }
 }
 
-@media (max-width: 582px) {
+
+@media (max-width: 344px) {
     .botones__boton-acerca-de {
         display: none;
     }
 }
 
-@media (max-width: 392px) {
-    .botones__boton-inicio {
-        display: none;
-    }
-}
 
 @media (max-width: 276px) {
     .botones__boton-grande {
         display: none;
     }
-    
-    .logo_color {
-        align-content: 100vw;
-    }
 }
+
+
 
 
 
@@ -286,6 +318,56 @@ h1{
     flex-direction: column;
 }
 
+/* Botones redes junto a enviar */
+.botones_abajo {
+    display: inline-flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+}
+
+.botones_abajo a{
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.botones_abajo img{
+    display: inline-flex;
+    flex-direction: row;
+    height: 38px;
+}
+
+.botones_abajo_redes {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.botones_abajo_redes img{
+    margin-left: 25px;    
+}
+
+
+
+@media (max-width: 1170px) {
+    .container{
+        margin-left: 10%;
+        width: 80%;
+    }
+    .container_1{
+        margin-left: 10%;
+        width: 80%;
+    }
+    .botones_abajo img{
+        display: inline-flex;
+        flex-direction: row;
+        height: 35px;
+    }
+}
+
 @media (max-width: 768px) {
     .whitebox_1 {
         padding-top: 0;
@@ -332,13 +414,6 @@ h1{
     }
 }
 
-
-@media (max-width: 1366px) {
-    .info_contacto_caja{
-        display: none;
-        
-    }
-}
 
 body {
     outline: 1px solid #bb9457;
