@@ -153,11 +153,12 @@ div.botones{
     display: flex;
     flex-direction: column;
 
-    height: 400px;
+    height: 300px;
     width: 100%;
     align-items: center;
     justify-content: center;
     font-weight: 700;
+    padding-top: 90px;
 }
 
 h1{
