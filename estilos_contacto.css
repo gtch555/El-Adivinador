@@ -98,8 +98,8 @@ div.botones{
 }
 
 @media (max-width: 465px) {
-    .botones__boton-inicio {
-        display: none
+    .botones__boton-productos {
+        display: none;
     }
 }
 
@@ -125,28 +125,11 @@ div.botones{
 }
 
 @media (max-width: 392px) {
-    .botones__boton-productos {
-        display: none;
-    }
-}
 
-
-@media (max-width: 344px) {
     .botones__boton-acerca-de {
         display: none;
     }
 }
-
-
-@media (max-width: 276px) {
-    .botones__boton-grande {
-        display: none;
-    }
-}
-
-
-
-
 
 /* TITULO */
 
