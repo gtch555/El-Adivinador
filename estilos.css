@@ -160,10 +160,10 @@ div.botones{
 }
 
 .content {
-    background-image: url('/local_2_oscuro.jpg');
+    /*background-image: url('/local_2_oscuro.jpg');
     background-size: cover;
     background-repeat:repeat-y;
-    margin-bottom: 0;
+    margin-bottom: 0;*/
 }
 
 h1{
