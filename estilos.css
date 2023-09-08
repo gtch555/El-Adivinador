@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Rockwell';
+    src: url('webfontkit-20230906-104343/rock-webfont.woff2') format('woff2'),
+         url('webfontkit-20230906-104343/rock-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
 *{
     box-sizing: border-box;
     font-family: 'Karla', sans-serif;
