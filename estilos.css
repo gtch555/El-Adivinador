@@ -37,19 +37,27 @@ header{
 
 .botones a{
     text-decoration: none;
-    color: #bb9457;
+    
 }
 
 .botones__boton-inicio{
     margin-right: 30px;
 }
+.botones__boton-inicio a{
+    color: #bb9457;
+}
 
 .botones__boton-acerca-de{
     margin-right: 30px;
 }
-
+.botones__boton-acerca-de a{
+    color: #bb9457;
+}
 .botones__boton-productos{
     margin-right: 30px;
+}
+.botones__boton-productos a{
+    color: #bb9457;
 }
 
 .botones__boton-inicio:hover{
@@ -67,20 +75,20 @@ header{
 .botones__boton-grande{
     height: 49px;
     width: 139px;
-    background-color: #6f1d1b;
+    background-color: #bb9457;
     margin-right: 30px;
     border-radius: 4px;
     text-align: center;
     transition: color 0.3s;
     outline: 1px solid #bb9457;
-    color: #bb9457;
     padding: 11px;
+    color: #6f1d1b;
 }
 
 .botones__boton-grande:hover{
-    background-color: #bb9457;
+    background-color: #6f1d1b;
     outline: 1px solid #bb9457;
-    color: #6f1d1b;
+    color: #bb9457;
 }
 
 #logo{
@@ -169,10 +177,10 @@ div.botones{
 }
 
 .content {
-    /*background-image: url('/local_2_oscuro.jpg');
+    background-image: url('/bg/local_mix3.jpeg');
     background-size: cover;
     background-repeat:repeat-y;
-    margin-bottom: 0;*/
+    margin-bottom: 0;
 }
 
 h1{
@@ -933,4 +941,22 @@ footer {
     height: 300px;
     margin-top: 45px;
     background-color:#bb9457;
+}
+
+#cuarta_info {
+    background-color: #bb9457;
+    color: #6f1d1b;
+}
+
+/* Le quito el margen a las infos en tamaño normal-medio */
+
+#id_primera_info {
+    margin-bottom: 0;
+}
+.segunda_info {
+    margin-bottom: 0;
+}
+#tercera_info {
+    padding-top: 2%;
+    margin-bottom: 0;
 }
