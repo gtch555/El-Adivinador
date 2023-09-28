@@ -1099,3 +1099,27 @@ footer a {
         margin-top: 20px;
     }
 }
+
+@media (max-width: 669px) {
+    .copyright{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 567px) {
+    .copyright{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 485px) {
+    .copyright{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 437px) {
+    .copyright{
+        font-size: 13px;
+    }
+}
