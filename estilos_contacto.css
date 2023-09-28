@@ -411,3 +411,72 @@ body {
     margin: 0 auto;
     max-width: 2000px;
 }
+
+/* FOOTER */
+
+footer {
+    height: 300px;
+    margin-top: 45px;
+    background-color:#bb9457;
+    margin-top: 0px;
+}
+
+footer a {
+    color: #6f1d1b;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.botones_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.botones_footer1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.botones_footer2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.botones_footer2 a{
+    display: inline-flex;
+}
+
+.botones_footer2 img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+#cuarta_info {
+    background-color: #bb9457;
+    color: #6f1d1b;
+}
+
+@media (max-width: 919px) {
+    footer {
+        height: 450px;
+    }
+
+    .botones_footer{
+        flex-direction: column;
+        align-items: start;
+        margin-left: 10%;
+        
+    }
+
+    .botones_footer1{
+        padding-top: 50px;
+        order: 1;
+    }
+
+    .copyright {
+        margin-top: 20px;
+    }
+}
