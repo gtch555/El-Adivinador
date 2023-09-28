@@ -115,7 +115,7 @@ div.botones{
 }
 
 @media (max-width: 465px) {
-    .botones__boton-inicio {
+    .botones__boton-acerca-de {
         display: none
     }
 }
@@ -176,12 +176,12 @@ div.botones{
     padding-top: 0;
 }
 
-.content {
+/*.content {
     background-image: url('bg/local_mix3.jpeg');
     background-size: cover;
     background-repeat:repeat-y;
     margin-bottom: 0;
-}
+}*/
 
 h1{
     font-family: 'Rockwell', sans-serif;
@@ -297,7 +297,7 @@ h1{
     }
 }
 
-@media (max-width: 392px) {
+@media (max-width: 410px) {
     .botones-main {
         margin-top: 10px;
         flex-direction: column;
@@ -961,18 +961,59 @@ footer {
     margin-bottom: 0;
 }
 
-/* TAMAÑO PC GRANDE */
 
-@media (min-width: 1586px) {
+/* INSTRUCCIONES */
+
+.seccion_ordenar{
+    display: inline-flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+}
+
+.seccion_ordenar img {
+    margin-top: 9px;
+    margin-right: 20px;
+    height: 17px;
+    border-radius: 30px;
+}
+
+.instrucciones h3 {
+    font-size: 30px;
+    font-family: 'Rockwell', sans-serif;
+}
+
+.instruccion_1{
+    display: inline-flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.instruccion_2{
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+.instruccion_3{
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+.instruccion_4{
+    display: inline-flex;
+    margin-bottom: 100px;
+}
+
+/* Instrucciones responsive */
+
+@media (max-width: 610px) {
+    .seccion_ordenar{
+        display: inline-flex;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 390px) {
     h1 {
-        font-size: 60px;
-    }
-
-    .botones-main-1{
-        font-size: 23px;
-    }
-    .botones-main-2{
-        font-size: 23px;
-        
+        font-size: 40px;
     }
 }
